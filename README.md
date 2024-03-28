@@ -57,7 +57,25 @@ eventPeople
 - GET  /admin/events/:id_event/groups/:id 
 - POST /admin/events/:id_event/groups  
 - PUT  /admin/events/:id_event/groups/:id  
-- DELETE /admin/events/:id_event/groups/:id  
+- DELETE /admin/events/:id_event/groups/:id
+
+
+- GET  /admin/events/:id_event/groups/people
+- GET  /admin/events/:id_event/groups/people/:id 
+- POST /admin/events/:id_event/groups/people  
+- PUT  /admin/events/:id_event/groups/people/:id  
+- DELETE /admin/events/:id_event/groups/people:id
+
+
+
+- GET  /events/:id
+- GET  /events/:id_event/person/:cpf
+
+
+
+
+
+
 
 
 
